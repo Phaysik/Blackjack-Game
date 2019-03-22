@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blackjack Game</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Blackjack game">
+  <meta name="author" content="Matthew Moore">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="JS/Blackjack.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="CSS/myCSS.css" type="text/css" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body onload="CreateHands()">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 player">
+        <h4 class="text-center font-weight-normal">Player</h4>
+        <div class="playerImagePlace"></div>
+        <div class="playerScore text-center"></div>
+        <br />
+        <h4 class="playerWin text-center font-weight-normal"></h4>
+      </div>
+      <div class="col-md-2 buttons">
+      </div>
+      <div class="col-md-5 computer">
+        <h4 class="text-center font-weight-normal">Computer</h4>
+        <div class="computerImagePlace"></div>
+        <div class="computerScore text-center"></div>
+        <br />
+        <h4 class="computerWin text-center font-weight-normal"></h4>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
